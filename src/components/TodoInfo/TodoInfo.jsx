@@ -1,7 +1,6 @@
 import { UserInfo } from '../UserInfo/UserInfo';
 import usersFromServer from '../../api/users.json';
 
-
 function getUserById(userId) {
   return usersFromServer.find(user => user.id === userId) || null;
 }
